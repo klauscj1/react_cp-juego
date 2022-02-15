@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.juego_container {
+  width: 100vw;
+  height: 100vh;
+  background: white;
+}
+
+.tablero {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cuadrado {
+  background-color: orange;
+  width: 20%;
+  height: 200px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.imagen {
+  width: 100%;
+  height: 100%;
+}
